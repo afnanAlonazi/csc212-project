@@ -1,7 +1,13 @@
 
 public class Node<T> {
-private T data;
-private Node<T> next;
+public T data;
+public Node<T> next;
+
+public Node() {
+	data = null;
+	next = null;
+}
+
 public Node(T data) {
 	this.data = data;
 	next=null;
