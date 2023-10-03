@@ -39,10 +39,9 @@ public class LinkedList<T> {
 	}
 			else {
 				c.next=head;
-				head=c;
-				
+				head=c;	
 			}			
-		
+		Node <T> pre = head;
 		
 	}
 }
