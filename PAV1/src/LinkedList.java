@@ -42,6 +42,7 @@ public class LinkedList<T> {
 				head=c;	
 			}			
 		Node <T> pre = head;
+		Node <T> post= null;
 		
 	}
 }
