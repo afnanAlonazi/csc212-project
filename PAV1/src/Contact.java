@@ -62,5 +62,61 @@ public class Contact implements Comparable<Contact>  {
 				"Birthday:\n" + Birthday +
 				"Notes:" + Notes );
 	}
+
+	public String getContactName() {
+		return ContactName;
+	}
+
+	public void setContactName(String contactName) {
+		ContactName = contactName;
+	}
+
+	public String getContact1STname() {
+		return Contact1STname;
+	}
+
+	public void setContact1STname(String contact1sTname) {
+		Contact1STname = contact1sTname;
+	}
+
+	public String getPhoneNumber() {
+		return PhoneNumber;
+	}
+
+	public void setPhoneNumber(String phoneNumber) {
+		PhoneNumber = phoneNumber;
+	}
+
+	public String getEmailAddress() {
+		return EmailAddress;
+	}
+
+	public void setEmailAddress(String emailAddress) {
+		EmailAddress = emailAddress;
+	}
+
+	public String getAddress() {
+		return Address;
+	}
+
+	public void setAddress(String address) {
+		Address = address;
+	}
+
+	public String getBirthday() {
+		return Birthday;
+	}
+
+	public void setBirthday(String birthday) {
+		Birthday = birthday;
+	}
+
+	public String getNotes() {
+		return Notes;
+	}
+
+	public void setNotes(String notes) {
+		Notes = notes;
+	}
 	
 }
