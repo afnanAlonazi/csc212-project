@@ -45,22 +45,5 @@ public class LinkedList<T> {
 		Node <T> post= null;
 		
 	}
-		public void deleteContact(String Name) {
-		if(head==null)
-			return ;
-		Node<T>p=head;
-		if(head.next==null) {
-			head=head.next();
-			System.out.println("contact deleted successfully");
-		}
-		else
-			current=head;
-			while(!(Contact)p).data.getName().equals(Name)){
-				p=p.next();
-				current=current.next;
-				}
-			current=p.next;
-			System.out.println("contact deleted successfully");
-			
-			}
+		
 }
